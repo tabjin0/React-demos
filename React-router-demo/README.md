@@ -1,5 +1,10 @@
 React-router-demo-note
 
+Note:
+Please check out your environment about this. When I learnt this,webpack v2 failed me because of the new rules,expecially loader.Also,React-router failed me...
+I hope smenone can get touch with the new rules of new versions in DOCS if you want to 'npm install' the latest version.
+
+
 所有的系统都需要路由，只要系统不是一个页面。一个酷游基本上对应着一个页面或者一个资源。
 比如，react-router，vue-router，后端的koa-router
 
@@ -21,14 +26,10 @@ npm install react-router —save
 
 2. 创建页面
 创建以下几个页面
-./app/containers/App.jsx  所有页面的爸爸页面
-
+./app/containers/App.jsx  模板页，所有页面的爸爸页面(也就是主页，列表页，详情页，404页的父组件)
 ./app/containers/Home   主页
-
 ./app/containers/List    列表页
-
 ./app/containers/Detail    详情页
-
 ./app/containers/NotFound   404页面
 
 注意App.jsx中的代码目前是这样子的，而且放在这里有点多余，但是在正式的项目开发中，这个文件很有用，而且这个文件和’react-router‘也将会结合的很好。
